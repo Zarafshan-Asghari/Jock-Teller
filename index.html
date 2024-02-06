@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>jock teller</title>
+  </head>
+  <body class="">
+    <div
+      class="flex flex-col items-center justify-center h-screen bg-no-repeat bg-top"
+      style="background-image: url(./pom-bot.gif)"
+    >
+      <button
+        id="btn"
+        class="p-4 outline-none bg-[#3ded97] text-white capitalize hover:text-[#3ded97] hover:bg-gray-100 shadow-lg rounded-md border-2 border-[#3ded97] transition duration-300 font-serif disabled:bg-opacity-70 disabled:cursor-default"
+      >
+        tell me a jock
+      </button>
+
+      <audio id="audio" hidden controls></audio>
+    </div>
+
+    <!-- Script  -->
+    <script src="script.js"></script>
+  </body>
+</html>
